@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="Description" content="Optical Character Recognition demo in JavaScript"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/jquery.Jcrop.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+</head>
+
+<body class="step1">
+	<form method="post" accept-charset="utf-8" name="form1" style="display:none;">
+            <input name="hidden_data" id='hidden_data' type="hidden"/>
+       </form>
+  
+        
+<div class="container">
+    <div class="alert alert-danger"><strong>Oops!</strong> <span></span></div>
+    <div class="jumbotron" style="padding:0; width:100%; margin:0; ">
+        <div id="step1">
+            
+            <figure class="not-ready">
+                <video autoplay style="position:absolute;  width:100%; top:0;left:0;"></video>
+            </figure>
+           
+            
+        </div>
+        <div id="step2" style="padding:0; margin:0;">  
+
+            <figure>
+                <canvas style="display:none; position:absolute; width:100%;" ></canvas>
+                <img src=""/>
+            </figure>            
+            <button style="width:10%;padding:5px; display:none;" class="btn btn-xs btn-success" id="adjust" disabled>Done</button>
+            <!-- <button style="padding:5px;" class="btn btn-xs btn-success" id="go-back">Step2</button>  -->           
+			
+			<div id="btns" style="position:fixed; bottom:100px; z-index:50000;">
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-1" disabled>1</button>
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-2" disabled>2</button>
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-3" disabled>3</button>
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-4" disabled>4</button>
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-5" disabled>5</button>
+            <button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-image" disabled>img</button>
+            <button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-o" disabled>O</button>
+			<button style="opacity:0.5; margin-top:3px; width:40px;padding:5px;" class="btn btn-xs btn-success" id="upload-question-x" disabled>X</button>
+			           
+            <button style="opacity:0.5; margin-top:3px; padding:5px;" class="btn btn-xs btn-success" id="go-step1">Step1</button>
+            <p style="padding-bottom:0; font-size:small;">Brightness: <input id='brightness' type="range" min="0" max="100" id="brightness" ></p>
+            <p style="padding-bottom:0; font-size:small;">Contrast: <input id='contrast' type="range" min="0" max="100" id="contrast" ></p>
+            </div>
+            
+           
+        </div>
+        <div id="step3">           
+            <figure style="padding:0;">
+                <canvas style="width:90%;" id='testCanvas' ></canvas>
+            </figure>          
+
+           
+			
+			<canvas id="c" width="500" height="300"></canvas>
+			
+        </div>
+    </div>
+
+    
+
+    
+
+</div>
+<!-- /container -->
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/vendor/modernizr.min.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/vendor/bootstrap.min.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/vendor/jquery.Jcrop.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/vendor/ocrad.min.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/vendor/glfx.min.js"></script>
+<script src="https://www.oxfactory.net:41996/oxfactory/jscrop/js/process.js"></script>
+<!-- toastr -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;}
+img,fieldset{border:0;}
+ul,ol{list-style:none;}
+em,address{font-style:normal;}
+a{text-decoration:none;}
+a:hover,a:active,a:focus{text-decoration:underline;}
+
+
+html, body {height: 100%; margin: 0; padding: 0;}
+
+#index_topbg {posituon: relative; width: 100%; height: 5px; background-color: #5B91C0;}
+
+#indexwrap {position: absolute; width: 100%; height: 100px; margin: 0 auto; left: 0px; top: 50%; margin-top: -50px; background-color: #5B91C0;}
+
+#indexwrap #container {position: relative; width: 100%; height: 58px; margin: 20px 0 20px 0; border-top: solid 1px #FFF; border-bottom: solid 1px #FFF; text-align: center;}
+#container ul {width: 1024px; height: 58px; margin: 0 auto;}
+#container ul .li1 {float: left; width: auto; height: 38px; margin: 10px 0 10px 0; text-align: center;}
+#container ul .li2 {float: left; width: auto; height: 25px; margin: 23px 0 10px 40px; text-align: center;}
+#container ul .li3 {float: left; width: auto; height: 28px; margin: 20px 0 10px 20px; text-align: center;}
+#container ul .li4 {float: left; width: auto; height: 25px; margin: 23px 0 10px 40px; text-align: center;}
+#container ul .li5 {float: left; width: auto; height: 28px; margin: 20px 0 10px 40px; text-align: center;}
+
+
+#container .font1 {color: #FFF; font-size: 32px; font-weight: bold;}
+#container .font2 {color: #FFF; font-size: 12px; font-weight: bold;}
+
+.font3 {font-size: 12px; color: RED; font-weight: bold; line-height: 18px; letter-spacing: 0em;}
+.font4 {font-size: 12px; color: #000; font-weight: bold; line-height: 18px; letter-spacing: 0em;}
+.font5 {font-size: 13px; color: RED; font-weight: bold; line-height: 18px; letter-spacing: 0em;}
+
+/* 메인 부분 */
+#topwrap  {position: fixed; width: 100%; height: 70px; margin: 0 auto; left: 0; top: 0; text-align: left; background-color: #5B91C0; z-index: 1;}
+#topwrap #line {position: relative; width: 100%; height: 38px; margin: 15px 0 15px 0; border-top: solid 1px #FFF; border-bottom: solid 1px #FFF;}
+#line .top_left {position: relative; float: left; width: 20%; height: 38px; text-align: center; vertical-align: middle; margin: 0 0 0 0;}
+#line .top_right {float: left; width: 80%; height: 38px; text-align: left; margin: 0 0 0 0;}
+.top_right .ul {position: absolute; width: 80%; height: 22px; margin: 0 auto; left: 20%; top: 8px; text-align: left;}
+.ul .li1 {float: left; width: auto; height: 22px; margin: 0 0 0 0;}
+.ul .li2 {float: left; width: auto; height: 22px; margin: 0 0 0 20px;}
+
+#line .font1 {font-size: 20px; font-weight: bold; color: #FFFFFF; line-height: 38px;}
+#line .font2 {font-size: 13px; font-weight: bold; color: #FFFFFF; line-height: 26px; letter-spacing: 0.1em;}
+
+#bodywrap {position: relative; width: 100%; height: 100%; margin: 0 0 0 0; }
+
+/* 좌측 메뉴 */
+#bodywrap #left_body {position: fixed; width: 15%; height: 100%; margin: 0 0 0 0; left: 0px; top: 70px; background-color: #EEEEEE; border-right: solid 1px #5B91C0; border-top: solid 1px #FFF;}
+#left_body #left_main {position: relative; width: 100%; height: 100%; margin: 0 0 0 0;}
+#left_main #left_table {position: relative; width: 85%; height: auto; margin: 0 auto; padding: 0 0 0 0;}
+
+#left_table #table1 {position: relative; width: 100%; height: auto; margin: 20px 0 0 0; padding: 0 0 0 0;}
+#table1 .td1 {width: 45%; height: 22px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: left; vertical-align: middle;}
+#table1 .td2 {width: 55%; height: 22px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: left; vertical-align: middle;}
+#table1 .td3 {width: 100%; height: 22px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: left;}
+
+#table1 .t_font1 {font-size: 12px; color: #000; font-weight: bold; line-height: 26px; letter-spacing: 0em;}
+#table1 .t_font2 {font-size: 12px; color: #000; line-height: 26px; letter-spacing: 0.1em;}
+#table1 .t_font3 {font-size: 12px; color: RED; font-weight: bold; line-height: 26px; letter-spacing: 0em;}
+
+#left_main .left_menu {position: relative; width: 85%; height: auto; margin: 0 auto;}
+
+.left_menu ul {width: 100%; height: auto; margin: 20px 0 0 0;}
+.left_menu ul .li1 {width: 100%; height: 20px; margin: 0 0 0 0; text-align: left;}
+.left_menu ul .li2 {width: 100%; height: 1px; margin: 10px 0 10px 0; background-color: #666666;}
+.left_menu ul .li3 {width: 100%; height: auto; margin: 5px 0 0 0; text-align: left; padding-left: 10px;}
+.left_menu ul .li4 {width: 100%; height: auto; margin: 0 0 0 0; text-align: left; padding-left: 10px;}
+.left_menu ul .li5 {width: 100%; height: 20px; margin: 5px 0 0 0; text-align: left;}
+
+#left_body .font1 {font-size: 13px; font-weight: bold; color: #000; line-height: 26px; letter-spacing: 0.1em;}
+#left_body .font2 {font-size: 12px; color: #000; line-height: 26px; letter-spacing: 0.1em;}
+
+
+/* 우측 내용 */
+#bodywrap #right_body {position: absolute; width: 82%; height: 100%; margin: 0 0 0 0; left: 18%; top: 0px;}
+#right_body #right_main {position: relative; width: 100%; height: 100%; margin: 82px 0 0 0; text-align: left;}
+#bodywrap #contents {position: relative; width: 82%; height: 100%; margin: 100px 0 0 100px;}
+#right_body #right_halfleftmain {width: 41%; height: 100%; margin: 82px 0 0 0; float:left;}
+#right_body #right_halfrightmain {width: 41%; height: 100%; margin: 82px 0 0 0; float:left;}
+
+#right_halfleftmain h1 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 0 0 5px 0;}
+#right_halfleftmain h2 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 40px 0 5px 0;}
+#right_halfleftmain hr {width: 95%; size: 1px; margin: 0 0 0 0; border-color: #666666; text-align: left;}
+
+#right_halfrightmain h1 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 0 0 5px 0;}
+#right_halfrightmain h2 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 40px 0 5px 0;}
+#right_halfrightmain hr {width: 95%; size: 1px; margin: 0 0 0 0; border-color: #666666; text-align: left;}
+
+#right_main h1 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 0 0 5px 0;}
+#right_main h2 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; margin: 40px 0 5px 0;}
+#right_main hr {width: 95%; size: 1px; margin: 0 0 0 0; border-color: #666666; text-align: left;}
+
+/* 검색 조건 */
+#right_main #search_body {position: relative; width: 95%; height: 25px; margin: 5px 0 0 0; text-align: left;}
+
+#search_body .hr1 {width: 100%; size: 1px; margin: 0 0 0 0; border-color: #EEEEEE; text-align: left;}
+
+#search_body ul {width: auto; height: 25px; margin: 0 0 8px 0; text-align: right;}
+#search_body ul .li1 {display: inline; width: auto; height: 20px; margin: 2px 0 0 0;}
+#search_body ul .li2 {display: inline; width: 100px; height: 20px; margin: 0 0 0 3px;}
+#search_body ul .li3 {display: inline; width: 80px; height: 20px; margin: 0 0 0 3px;}
+
+#search_body .s_input1 {width: 200px; height: 20px; font-size: 9pt; color: #000000; line-height: 19px; letter-spacing: -0.01em; border-style: none; border-width: 0; background-color: #FFFFFF; border: solid 1px #666;}
+#search_body .s_input2 {width: 80px; height: 20px; font-size: 9pt; color: #FFFFFF; line-height: 19px; letter-spacing: -0.01em; border-style: none; border-width: 0; background-color: #4682B4; cursor: pointer;}
+#search_body .s_input3 {width: auto; height: 20px; padding: 0 8px 0 8px; font-size: 9pt; color: #000; line-height: 19px; letter-spacing: -0.01em; border-style: solid; border-width: 1px; border-color: 4682B4; background-color: #FFF; cursor: pointer;}
+#search_body .s_input4 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 8px 0 8px; border: 1px solid #DA5800; background-color: #FF7C25; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+
+
+#search_body .s_font1 {font-size: 9pt; font-weight: bold; color: #666666; line-height: 20px; letter-spacing: -0.01em;}
+#search_body .font1 { font-size: 12px; color: #000; line-height: 26px; letter-spacing: 0.1em;}
+
+#list_body {position: relative; width: 95%; height: auto; margin: 20px 0 0 0;}
+#list_body .list_title {position: relative; width: 100%; height: 25px; margin: 0 0 0 0; text-align: left;}
+.list_title ul {width: 99%; height: 25px; margin: 0 0 0 1%;}
+.list_title ul .li1 {float: left; width: auto; height: 22px; margin: 2px 0 0 0; text-align: left;}
+.list_title ul .li2 {float: right; width: auto; height: 22px; margin: 2px 0 0 0; text-align: left;}
+
+.list_title .list_t {position: relative; width: 100%; height: auto; border-width: 1; border-style: solid; border-color: #FFFFFF;}
+.list_title .list_t .list_td1 {position: relative; width: auto; height: 22px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_td2 {position: relative; width: auto; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_td3 {position: relative; width: auto; height: 22px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_td4 {position: relative; width: 100%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_td5 {position: relative; width: 20%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_td6 {position: relative; width: 20%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_td7 {position: relative; width: 100%; height: 22px; background-color: #FFFFFF; text-align: right;}
+
+.list_title .list_t .list_td1_1 {position: relative; width: 4%; height: 30px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_td1_2 {position: relative; width: 16%; height: 30px; background-color: #4682B4; text-align: center;}
+
+.list_title .list_t .list_td2_1 {position: relative; width: 4%; height: 30px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_td2_2 {position: relative; width: 16%; height: 30px; background-color: #FFFFFF; text-align: center;}
+
+.list_title .list_t .list_td3_1 {position: relative; width: 4%; height: 30px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_td3_2 {position: relative; width: 16%; height: 30px; background-color: #EEEEEE; text-align: center;}
+
+.list_title .list_t .list_1 {position: relative; width: 5%; height: 22px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_2 {position: relative; width: 10%; height: 22px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_3 {position: relative; width: 10%; height: 22px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_4 {position: relative; width: 65%; height: 22px; background-color: #4682B4; text-align: center;}
+.list_title .list_t .list_5 {position: relative; width: 10%; height: 22px; background-color: #4682B4; text-align: center;}
+
+.list_title .list_t .list_6 {position: relative; width: 5%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_7 {position: relative; width: 10%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_8 {position: relative; width: 10%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_9 {position: relative; width: 65%; height: 22px; background-color: #FFFFFF; text-align: center;}
+.list_title .list_t .list_10 {position: relative; width: 10%; height: 22px; background-color: #FFFFFF; text-align: center;}
+
+.list_title .list_t .list_11 {position: relative; width: 5%; height: 22px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_12 {position: relative; width: 10%; height: 22px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_13 {position: relative; width: 10%; height: 22px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_14 {position: relative; width: 65%; height: 22px; background-color: #EEEEEE; text-align: center;}
+.list_title .list_t .list_15 {position: relative; width: 10%; height: 22px; background-color: #EEEEEE; text-align: center;}
+
+.list_title .l_font1 {font-size: 9pt; font-weight: bold; color: #666666; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font2 {font-size: 9pt; color: #666666; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font3 {font-size: 9pt; font-weight: bold; color: #FFFFFF; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font4 {font-size: 9pt; color: #666666; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font5 {font-size: 9pt; color: #666666; font-weight: bold; line-height: 20px; letter-spacing: -0.01em;}
+
+.list_title .l_font6 {font-size: 9pt; font-weight: bold; color: red; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font7 {font-size: 9pt; color: #000; font-weight: bold; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font8 {font-size: 9pt; color: #000; line-height: 20px; letter-spacing: -0.01em;}
+.list_title .l_font9 {font-size: 9pt; color: red; font-weight: bold; line-height: 20px; letter-spacing: -0.01em;}
+
+#list_body .s_input2 {width: 80px; height: 20px; font-size: 9pt; color: #FFFFFF; line-height: 19px; letter-spacing: -0.01em; border-style: none; border-width: 0; background-color: #4682B4; cursor: pointer;}
+#list_body .s_input3 {width: auto; height: 20px; padding: 0 8px 0 8px; font-size: 9pt; color: #FFF; line-height: 19px; letter-spacing: -0.01em; border-style: none; border-width: 0; background-color: #4682B4; cursor: pointer;}
+#list_body .s_input4 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 8px 0 8px; border: 1px solid #DA5800; background-color: #FF7C25; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+#list_body .s_input5 {width: auto; height: 20px; padding: 0 8px 0 8px; font-size: 9pt; color: #000; line-height: 19px; letter-spacing: -0.01em; border-style: solid; border-width: 1px; border-color: 4682B4; background-color: #FFF; cursor: pointer;}
+
+#content #top_con {position: relative; width: 95%; height: 22px; margin: 0 2% 0 0; text-align: left;}
+#top_con h1 {font-size: 12px; color: #000; text-align: left;}
+#top_con hr {width: 100%; size: 1px; margin: 0 0 0 0; border-color: #666666; text-align: left;}
+
+#content #search_con {position: relative; width: 95%; height: 25px; margin: 0 2% 0 0; text-align: left;}
+
+
+/* 팝업 회원 가입 */
+
+#popwrap {position: relative; width: 100%; height: auto; margin: 0 auto; padding: 0 0 0 0;}
+#popwrap #poptop {position: relative; height: 50px; text-align: left; vertical-align: middle; background-color: #5B91C0;}
+#poptop .table1 {width: 100%; height: 50px; margin: 0 0 0 0; padding: 10px 0 10px 0; border-bottom: solid 1px #ADADAD;}
+.table1 .td1 {width: 100%; height: auto; text-align: left; vertical-align: middle; padding: 0 0 0 10px; border-top: solid 1px #FFF; border-bottom: solid 1px #FFF;}
+
+#popwrap #popinfo {position: relative; width: 100%; height: auto; margin: 10px 0 0 0; padding: 0 0 0 0;}
+#popinfo .p1 {margin: 0 0 0 10px; padding: 0 0 0 0; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+
+#popwrap .hr1 {width: 100%; height: 2px; background-color: #5B91C0; margin: 30px 0 0 0;}
+#popwrap .hr2 {width: 100%; height: 2px; background-color: #5B91C0; margin: 0 0 30px 0;}
+#popwrap .hr3 {width: 100%; height: 2px; background-color: #5B91C0; margin: 0 0 0 0;}
+
+#popwrap #bodywrap {width: 100%; height: auto; margin: 0 0 0 0; padding: 0 0 0 0;}
+#bodywrap .table2 {width: 100%; height: auto; margin: 0 0 0 0; padding: 0 0 0 0;}
+.table2 .td1 {width: 30%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; background-color: #EEE; border-bottom: solid 1px #ADADAD;}
+.table2 .td2 {width: 70%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; background-color: #FFF; border-bottom: solid 1px #ADADAD;}
+
+#bodywrap .table3 {width: 100%; height: auto; margin: 30px 0 20px 0; padding: 0 0 0 0; border-bottom: 2px solid #5B91C0;}
+.table3 .td1 {width: 100%; height: 30px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; border-bottom: 2px solid #5B91C0;}
+.table3 .td2 {width: 10%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: center; vertical-align: middle; background-color: #EEE; border-bottom: solid 1px #ADADAD;}
+.table3 .td3 {width: 90%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: center; vertical-align: middle; background-color: #FFF; border-bottom: solid 1px #ADADAD;}
+.table3 .td4 {width: 90%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; background-color: #FFF; border-bottom: solid 1px #ADADAD;}
+.table3 .td5 {width: 100%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 0; text-align: center; vertical-align: middle; background-color: #FFF; border-bottom: solid 1px #ADADAD;}
+
+#bodywrap .table4 {width: 100%; height: auto; margin: 0 0 0 0; padding: 0 0 0 0;}
+.table4 .td1 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 0 0 0; background-color: #5B91C0; text-align: center;}
+.table4 .td2 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 0 0 0; background-color: #FFF; text-align: center;}
+.table4 .td3 {width: auto; height: 25px; margin: 0 0 0 0; padding: 5px 0 0 5px; background-color: #FFF; text-align: left;}
+.table4 .td4 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 0 0 0; background-color: #EEE; text-align: center;}
+.table4 .td5 {width: auto; height: 25px; margin: 0 0 0 0; padding: 5px 0 0 5px; background-color: #EEE; text-align: left;}
+
+#popwrap #middlewrap {position: relative; width: 100%; height: auto; margin: 0 0 0 0; padding: 0 0 0 0;}
+#middlewrap .table2 {width: 100%; height: auto; margin: 0 0 0 0; padding: 0 0 0 0;}
+.table2 .td1 {width: 25%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; background-color: #EEE; border-bottom: solid 1px #ADADAD;}
+.table2 .td2 {width: 75%; height: 28px; margin: 0 0 0 0; padding: 0 0 0 10px; text-align: left; vertical-align: middle; background-color: #FFF; border-bottom: solid 1px #ADADAD;}
+
+#popwrap .p2 {margin: 30px 0 0 10px; padding: 0 0 0 0; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+
+#popwrap #bottomwrap {position: relative; display: table; width: 100%; height: 30px; text-align: center; vertical-align: middle; margin: 0 0 0 0; padding: 0 0 0 0;}
+
+.p_radio {width: 13px; height: 13px; margin: 0 5px 4px 0; padding: 0; vertical-align: middle;}
+.p_input1 {width: 150px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input2 {width: 250px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input3 {width: 50px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input4 {width: 95%; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input5 {width: 250px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background-color: #EEE; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input6 {width: 95%; height: 120px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input7 {width: 60%; height: 60px; margin: 5px 0 5px 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input8 {width: 190px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background-color: #EEE; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; text-align: right;}
+.p_input9 {width: 190px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background-color: #EEE; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; }
+.p_input10 {width: 300px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input11 {width: 200px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; text-align: right;}
+.p_input12 {width: 200px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background-color: #EEE; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; text-align: right;}
+
+.p_input13 {width: 60%; height: 90px; margin: 5px 0 5px 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_input14 {width: 200px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; text-align: left;}
+.p_inpu152 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 10px 0 10px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_numberic1 {width: 200px; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em; text-align: right;}
+
+.p_button1 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #5B91C0; background-color: #FFF; text-align: center;font-size: 9pt; color: #000; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button2 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #5B91C0; background-color: #FFF; text-align: center;font-size: 9pt; color: #000; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button3 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #0055EA; background-color: #5B91C0; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button4 {width: auto; height: 25px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #DA5800; background-color: #FF7C25; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button5 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #0055EA; background-color: #5B91C0; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button6 {width: auto; height: 22px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #DA5800; background-color: #FF7C25; text-align: center;font-size: 9pt; color: #FFF; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button7 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 5px 0 5px; border: 1px solid #DA5800; background-color: #FF7C25; text-align: center;font-size: 9pt; color: #FFF; font-weight: bold; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+.p_button8 {width: auto; height: 20px; margin: 0 0 0 0; padding: 0 10px 0 10px; border: 1px solid #5B91C0; background-color: #FFF; text-align: center;font-size: 9pt; color: #000; line-height: 8px; letter-spacing: -0.01em; cursor: pointer;}
+
+.p_font1 {font-size: 9pt; font-weight: bold; color: #FFFFFF; line-height: 20px; letter-spacing: -0.01em;}
+.p_font2 {font-size: 9pt; font-weight: bold; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_font3 {font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.p_font4 {font-size: 9pt; color: red; font-weight: bold; line-height: 18px; letter-spacing: -0.01em;}
+.p_font5 {font-size: 9pt; color: red; line-height: 18px; letter-spacing: -0.01em;}
+.p_font6 {font-size: 11px; color: red; line-height: 18px; letter-spacing: -0.01em;}
+.p_font7 {font-size: 12px; color: red; line-height: 18px; letter-spacing: -0.01em; font-weight: bold;}
+
+
+.input1 {width: 100px; height: 20px; margin: 0 auto; border: solid 1px #22668C; background-color: #FFF; color: #000; font-size: 12px; vertical-align: middle; line-height: 20px;}
+.input2 {width: 100px; height: 22px; margin: 0 auto; border: solid 1px #FFF; background-color: #5B91C0; color: #FFF; font-size: 12px; font-weight: bold; vertical-align: middle; line-height: 14px; cursor: pointer;}
+.input3 {width: auto; height: 22px; margin: 0 auto; padding: 0 10px 0 10px; border: solid 1px #FFF; background-color: #5B91C0; color: #FFF; font-size: 12px; font-weight: bold; vertical-align: middle; line-height: 14px; cursor: pointer;}
+.input4 {width: 207px; height: 36px; margin: 0 auto; border: 0px; background-color: #EDEDED; color: #000; font-size: 12px; padding: 0 0 0 10px; vertical-align: middle; line-height: 20px;}
+
+
+/* 상세정보 페이지 */
+#detailbody {position: relative; width: 95%; height: auto; margin: 10px 0 0 0; padding: 0; border-top: 2px solid #4682B4; border-bottom: 2px solid #4682B4;}
+#detailbody #detail_table {width: 100%; height: auto; margin: 0; padding: 0; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+#detail_table .td1 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; border-bottom: 1px solid #666; text-align: left; vertical-align: middle;}
+#detail_table .td2 {width: 35%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; border-bottom: 1px solid #666; text-align: left; vertical-align: middle;}
+#detail_table .td3 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; border-bottom: 1px solid #666; text-align: left; vertical-align: middle;}
+#detail_table .td4 {width: 35%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; border-bottom: 1px solid #666; text-align: left; vertical-align: middle;}
+#detail_table .td5 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; text-align: left; vertical-align: middle;}
+#detail_table .td6 {width: 35%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; text-align: left; vertical-align: middle;}
+#detail_table .td7 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; text-align: left; vertical-align: middle;}
+#detail_table .td8 {width: 35%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; text-align: left; vertical-align: middle;}
+
+#detailmoney {position: relative; width: 95%; height: auto; margin: 35px 0 0 0; padding: 0;}
+#detailmoney #moneydiv {position: relative; width: 100%; height: auto; border-top: 2px solid #4682B4; border-bottom: 2px solid #4682B4;}
+#moneydiv #moneytable {width: 100%; height: auto; margin: 0; padding: 0; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF;}
+#moneytable .td1 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; text-align: left; vertical-align: middle; border-bottom: 1px solid #666;}
+#moneytable .td2 {width: 85%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; text-align: left; vertical-align: middle; border-bottom: 1px solid #666;}
+#moneytable .td3 {width: 15%; height: 100px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; text-align: left; vertical-align: middle; vertical-align: middle; border-bottom: 1px solid #666;}
+#moneytable .td4 {width: 85%; height: 100px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; text-align: left; vertical-align: middle; vertical-align: middle; border-bottom: 1px solid #666;}
+#moneytable .td5 {width: 100%; height: 20px; margin: 0; padding: 0; background-color: #FFF; text-align: center; vertical-align: middle;}
+#moneytable .td6 {width: 15%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #EEE; text-align: left; vertical-align: middle; vertical-align: middle;}
+#moneytable .td7 {width: 85%; height: 30px; margin: 0; padding: 0 0 0 20px; background-color: #FFF; text-align: left; vertical-align: middle; vertical-align: middle;}
+
+#detailapp {position: relative; width: 95%; height: auto; margin: 5px 0 0 0; padding: 0;}
+#detailapp #appdown {position: relative; width: 100%; height: auto; margin: 15px 0 0 0; padding: 0;}
+#appdown #appdown_table {width: 100%; height: auto; height: auto; margin: 0; padding: 0;}
+#appdown_table .td1 {width: auto; height: 25px; background-color: #4682B4; text-align: center;}
+#appdown_table .td2 {width: auto; height: 25px; background-color: #FFF; text-align: center;}
+#appdown_table .td3 {width: auto; height: 25px; background-color: #EEE; text-align: center;}
+#appdown_table .td4 {width: auto; height: 25px; background-color: #4682B4; border-top: solid 1px #666; text-align: center;}
+
+#appdown_table .td4 {width: 5%; height: 25px; background-color: #4682B4; text-align: center;}
+#appdown_table .td5 {width: 15%; height: 25px; background-color: #4682B4; text-align: center;}
+#appdown_table .td6 {width: 50%; height: 25px; background-color: #4682B4; text-align: center;}
+
+#appdown_table .td7 {width: 5%; height: 25px; background-color: #FFF; text-align: center;}
+#appdown_table .td8 {width: 15%; height: 25px; background-color: #FFF; text-align: center;}
+#appdown_table .td9 {width: 50%; height: 25px; background-color: #FFF; padding: 0 0 0 10px; text-align: left;}
+
+.d_font1 {font-size: 9pt; font-weight: bold; color: #000; line-height: 20px; letter-spacing: -0.01em;}
+.d_font2 {font-size: 9pt; font-weight: bold; color: #FFFFFF; line-height: 20px; letter-spacing: -0.01em;}
+.d_font3 {font-size: 9pt; color: #000; line-height: 20px; letter-spacing: -0.01em;}
+.d_font4 {font-size: 9pt; font-weight: bold; color: red; line-height: 20px; letter-spacing: -0.01em;}
+.d_font5 {font-size: 9pt; font-weight: bold; color: red; line-height: 20px; letter-spacing: 0em;}
+
+.d_input1 {width: 80%; height: 90px; margin: 5px 0 5px 0; padding: 0; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+.d_input2 {width: 150px; height: 20px; margin: 0 0 0 0; padding: 0 0 0 5px; border: 1px solid #b7b7b7; border-right-color: #e1e1e1; border-bottom-color: #e1e1e1; background: transparent; font-size: 9pt; color: #000; line-height: 18px; letter-spacing: -0.01em;}
+
+.d_button1 {width: 120px; height: 20px; font-size: 9pt; color: #FFFFFF; line-height: 19px; letter-spacing: -0.01em; border-style: none; border-width: 0; background-color: #4682B4; cursor: pointer;}

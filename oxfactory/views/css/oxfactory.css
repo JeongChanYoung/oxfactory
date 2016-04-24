@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+.oxfactory_note
+{
+	width:300px;
+	height:300px;
+	background-color:white;
+	
+}
+div .coversheet
+{
+	position:absolute;
+	width:300px;
+	height:300px;		
+		
+}
+.xbox
+{	
+	float:right;
+	text-align:right;
+	width:30px;
+	height:30px;
+	margin-right:5px;
+	margin-top:5px;
+	background-color:yellow;
+	
+}
+.oxfactory_title
+{
+	border:1px solid red;
+	margin:0 auto;
+	color:black;
+	height:300px;
+	line-height:300px;
+	font-size: x-large;
+	text-align:center;
+	vertical-align: middle;
+}
+#oxfactory_list
+{
+	float:left;
+}
+ul li
+{
+	float:left;
+	list-style: none;
+	padding-left:50px;
+	opacity:0;
+}

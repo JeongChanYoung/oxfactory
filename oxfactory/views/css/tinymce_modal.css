@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+.mce-window {
+    max-width: 90% !important;
+	}
+	.mce-panel {
+	    max-width:90% !important
+	}
+	.mce-tabs {
+	    max-width: 90% !important;
+	}
+	.mce-container-body {
+	    max-width:90% !important;
+	}
+	.mce-container {
+	    max-width:90% !important;
+	}	
