@@ -2,7 +2,7 @@
 
 OX FACTORY
 
-To people who want to manage their knowledge and share quiz contents, this web application, called "Ox Factory", is the most useful note for them.
+For people who want to manage their information and share quiz contents, "Ox Factory", this is the most useful note.
 The question testing people's knowledge through selecting O or X is the most popular contents.  
 
 This web application helps people to make a note and create quiz so easily, just shot text book or quiz picture. 
